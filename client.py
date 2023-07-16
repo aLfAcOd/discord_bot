@@ -13,7 +13,7 @@ from discord.ext import commands as com, tasks
 
 import disTools as tools
 
-TOKEN = 'MTExODE1NjgxNzk0NDU0MzI4NQ.G9ODDf.qWOVOosGWym4qmaCMcOPOrVPf-BCC-6RReIPZQ'
+TOKEN = None
 
 client = com.Bot(command_prefix="  ", intents=discord.Intents.all())
 client.remove_command('help')
